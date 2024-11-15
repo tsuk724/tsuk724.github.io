@@ -440,3 +440,71 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+/* For screens smaller than 576px (Extra Small Devices) */
+@media (max-width: 576px) {
+    .carousel-caption {
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .wedding-date-content h1 {
+        font-size: 24px;
+    }
+
+    .wedding-date-content p {
+        font-size: 16px;
+    }
+
+    #countdown .fs-2 {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .team-content h5 {
+        font-size: 16px;
+    }
+}
+
+/* For screens smaller than 768px (Small Devices) */
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 32px;
+    }
+
+    .team-img {
+        height: auto;
+    }
+
+    .gallery-img img {
+        height: auto;
+    }
+
+    .rsvp-form .form-group {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tab-class ul.nav {
+        flex-direction: row; /* Keep tabs in a row */
+        justify-content: center; /* Center align the tabs */
+    }
+
+    .tab-class ul.nav li {
+        margin-bottom: 0; /* Remove vertical spacing */
+        margin-right: 10px; /* Add spacing between buttons */
+    }
+
+    .tab-class ul.nav li:last-child {
+        margin-right: 0; /* Remove margin on the last tab */
+    }
+
+    .nav-item .btn {
+        width: auto; /* Ensure buttons resize naturally */
+    }
+}
